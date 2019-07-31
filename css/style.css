@@ -1,0 +1,172 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 35px;
+    
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #87d37c;
+  
+}
+#menu .navbar-default {
+     background-color:transparent; 
+     border-color:transparent; 
+      
+}
+
+#menu .navbar-default .navbar-nav>li>a {
+    color: white;
+}
+#menu .navbar-default .navbar-nav>li>a:hover {
+    color: #8BC97C;
+     transition: .5s;
+}
+.menu-bg{
+    background-color: #8BC97C;
+    
+}
+#slider{
+    background: url(../img/bd.jpg);
+    text-align: center;
+    
+}
+.item{
+    color: white;
+    padding: 180px 0px;
+}
+.item h3{
+    font-size: 40px; 
+}
+.item h2{
+    font-size: 100px;
+    /*font-weight: bold;*/
+    border: 2px solid white;
+  max-width: 670px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.item h4{
+    font-size: 36px;
+}
+.item span{
+    color: #87d37c;
+}
+.carousel-indicators li{
+    background: white;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+}
+.carousel-indicators .active{
+    background: #87d37c;
+    border: 1px solid #87d37c;
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+}
+.slider-overlay{
+    width: 100%;
+    background: rgba(0,0,0,.3);
+}
+.about_top{
+    padding: 100px 0;
+    color: #030303;
+}
+.about_top h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+.about_top p{
+    font-size: 16px;
+     max-width: 700px;
+     margin: 0 auto;
+   //  margin-bottom: 20px;
+     
+}
+.about_icon i{
+    font-size: 35px;
+}
+.about_icon h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+     color: #030303;
+}
+.about_icon p{
+    font-size: 14px;
+}
+.about_icon:hover i,
+.about_icon:hover h2{
+    color:#87d37c;
+    
+}
+.service_icon img{
+    width: 100%;
+}
+#service{
+    background: #e1e1e1;
+    padding:90px 0;
+}
+.service_top{
+    max-width: 700px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+}
+.service_icon{
+    position: relative;
+    /*tomar upor daitto so atar upore overlay ashbe*/
+    overflow: hidden;
+    /*tomar upor ja overflow hosse ta bad dia daw*/
+    margin-bottom: 30px;
+}
+.service_overlay{
+    position: absolute;
+    /*tumi tomar relative er kache jaw*/
+    background: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+     /*relative jemon tar tik 100% orthat width height dewar karon holo overlay tar width height.agulu na dile overlay ashe na.jar*/ 
+    top: -100%;
+   transition: .5s;
+}
+.service_icon:hover .service_overlay{
+    top: 0px;
+}
+.abt{
+    position: absolute;
+    left: 35%;
+    bottom: -100%;
+    transition: .5s;
+}
+.abt i{
+    border: 1px solid white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    color: white;
+    transition: .5s;//iconer background slow motione anar jonno
+    
+    font-size: 20px;
+    /*font ta net e jemon ache tar theke tik korar jonno size dissi*/
+    line-height: 40px;
+    /*radius er moddhe font ta anar jonno line-height use koreche*/
+}
+.service_icon:hover .abt{
+    bottom: 40%;
+  
+    
+}
+.abt i:hover{
+    background: #87d37c;
+    border: 1px solid #87d37c;
+}
+/*responsive*/
+.count{
+    margin-bottom: 30px;
+}

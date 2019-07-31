@@ -1,0 +1,13 @@
+.scroll_to_top{
+    color: white;
+    background-color:#87d37c;
+    width: 50px;
+    height: 45px;
+    text-align: center;
+    font-size: 30px;
+    position: fixed;
+   /*karon ata otirikto ekta jaiga nia niachilo ..amra chai ata jaiga na nik r vashoman thakuk*/
+    bottom: 50px;
+    right: 30px;
+
+}

@@ -1,0 +1,22 @@
+#counterup{
+    margin-top: 60px;
+    background: url(../img/counter-bg_1.jpg)no-repeat;
+}
+.count{
+    color: white;
+    border: 1px solid #65655b;
+    background-color: rgba(0,0,0,.5);
+    font-size: 30px;
+    padding: 6px;
+}
+.count h3{
+    font-size: 15px;
+}
+.counter-content{
+    padding: 167px 0px;
+    
+}
+.counter-overlay{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+}

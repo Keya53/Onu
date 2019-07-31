@@ -1,0 +1,14 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #777;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 40px;
+}
+.logo img{
+   height: 69px;
+width: 121px;
+}

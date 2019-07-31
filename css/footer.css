@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    padding: 5px;
+    color:white;
+}
+p {
+    margin: 0 0 9px;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: bold;
+}
+.footer-icon i {
+
+    padding: 13px 12px;
+    font-size: 14px;
+    transition: .5s;
+
+}
+.footer-icon i:hover{
+    color: #87d37c;
+    
+}
